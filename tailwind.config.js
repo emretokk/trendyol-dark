@@ -6,6 +6,15 @@ module.exports = {
             colors: {
                 primary: "#f27a1a",
                 textColor: "#333333",
+                textColor2: "#666666",
+                textColor3: "#999999",
+                textColor4: "#757575",
+                bgColor1: "#f3f3f3",
+            },
+            spacing: {
+                901: "75rem",
+                902: "37.5rem",
+                903: "18.75rem",
             },
         },
     },
