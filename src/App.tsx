@@ -1,7 +1,7 @@
 import { Header } from "./components/header";
 import { Navbar } from "./components/navbar";
 import { Banner } from "./components/banner";
-import { Slider } from "./components/slider";
+import { SliderSection } from "./components/slidersection";
 import { Content } from "./components/content";
 import { Footer } from "./components/footer";
 
@@ -11,7 +11,7 @@ const App = () => {
             <Header />
             <Navbar />
             <Banner />
-            <Slider />
+            <SliderSection />
             <Content />
             <Footer />
         </div>
