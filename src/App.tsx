@@ -1,7 +1,8 @@
 import { Header } from "./components/header";
 import { Navbar } from "./components/navbar";
-import { Content } from "./components/content";
 import { Banner } from "./components/banner";
+import { Slider } from "./components/slider";
+import { Content } from "./components/content";
 
 const App = () => {
     return (
@@ -9,6 +10,7 @@ const App = () => {
             <Header />
             <Navbar />
             <Banner />
+            <Slider />
             <Content />
         </div>
     );
