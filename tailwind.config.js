@@ -10,6 +10,7 @@ module.exports = {
                 textColor3: "#999999",
                 textColor4: "#757575",
                 bgColor1: "#f3f3f3",
+                bgColor2: "#dc2e2e",
             },
             spacing: {
                 901: "75rem",
