@@ -12,6 +12,7 @@ module.exports = {
                 bgColor1: "#f3f3f3",
                 bgColor2: "#dc2e2e",
                 bgColor3: "#1b1b1b",
+                bgColor4: "#2d2d2d",
             },
             spacing: {
                 901: "75rem",
