@@ -4,11 +4,27 @@ import { Banner } from "./components/banner";
 import { SliderSection } from "./components/slidersection";
 import { Content } from "./components/content";
 import { Footer } from "./components/footer";
+import { useEffect, useState } from "react";
 
 const App = () => {
+    const [darkMode, setDarkMode] = useState(false);
+
+    const toggleDarkMode = () => {
+        setDarkMode((darkMode) => !darkMode);
+        darkMode === true
+            ? (localStorage.theme = "dark")
+            : (localStorage.theme = "light");
+    };
+
+    if (localStorage.theme === "dark") {
+        document.documentElement.classList.add("dark");
+    } else {
+        document.documentElement.classList.remove("dark");
+    }
+
     return (
-        <div className="App w-full h-full">
-            <Header />
+        <div className="App w-full h-fit">
+            <Header toggleDark={toggleDarkMode} />
             <Navbar />
             <Banner />
             <SliderSection />

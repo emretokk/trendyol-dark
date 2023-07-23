@@ -1,7 +1,8 @@
 import { BiUser, BiHeart, BiSearch } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { MdOutlineDarkMode } from "react-icons/md";
 
-export const Header = () => {
+export const Header = (props: any) => {
     return (
         <div className="Header h-[84px]">
             <div className="Header-top w-901 h-5 pt-1 mx-auto text-xs text-textColor3 flex justify-end gap-8 ">
@@ -51,6 +52,11 @@ export const Header = () => {
                         <AiOutlineShoppingCart size={18} />
                         <p className="pl-1 text-center">Sepetim</p>
                     </div>
+                </div>
+                <div className="darkmode button flex items-center justify-center">
+                    <button onClick={props.toggleDark}>
+                        <MdOutlineDarkMode size={22} />
+                    </button>
                 </div>
             </div>
         </div>

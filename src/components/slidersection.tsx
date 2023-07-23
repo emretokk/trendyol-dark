@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import { MdKeyboardArrowRight } from "react-icons/md";
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -26,6 +26,14 @@ const NextArrow = (props: any) => {
     );
 };
 
+const PrevArrow = (props: any) => {
+    return (
+        <button className={props.className} onClick={props.onClick}>
+            <MdKeyboardArrowLeft size={16} className="text-black" />
+        </button>
+    );
+};
+
 export const SliderSection = () => {
     const settings = {
         dots: false,
@@ -35,6 +43,7 @@ export const SliderSection = () => {
         slidesToShow: 10,
         slidesToScroll: 9,
         nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
     };
     return (
         <div className="SliderSection w-full h-36 flex items-center">
