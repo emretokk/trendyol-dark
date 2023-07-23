@@ -23,7 +23,7 @@ const App = () => {
     }
 
     return (
-        <div className="App w-full h-fit">
+        <div className="App w-full h-fit dark:bg-black dark:bg-opacity-90">
             <Header toggleDark={toggleDarkMode} />
             <Navbar />
             <Banner />

@@ -3,7 +3,7 @@ import { SEO } from "./seo";
 
 export const Content = () => {
     return (
-        <div className="content border-b border-[#e8e8e8]">
+        <div className="content border-b border-[#e8e8e8] dark:border-textColor">
             <div className="homepage w-901 mx-auto">
                 <div className="Headlines flex justify-between mb-10">
                     <a href="#" className=" w-96">
@@ -40,7 +40,7 @@ export const Content = () => {
                     <Article img="https://cdn.dsmcdn.com/ty968/pimWidgetApi/mobile_20230714130914_Lufianbanner.jpeg" />
                     <Article img="https://cdn.dsmcdn.com/ty968/pimWidgetApi/mobile_20230714130914_Lufianbanner.jpeg" />
                 </div>
-                <div className="SEO mt-12 border-[#e8e8e8] border-t mb-10">
+                <div className="SEO mt-12 border-[#e8e8e8] border-t mb-10 dark:border-textColor">
                     <SEO
                         headline="Tüm İhtiyaçlarınız İçin Tek İhtiyacınız Trendyol!"
                         paragraph="Türkiye’nin önemli online alışveriş adreslerinden biri olan Trendyol, 2010 yılında modayı herkes için ulaşılabilir kılmak amacıyla kuruldu. O günden bugüne giyimden aksesuara, ayakkabıdan kozmetiğe kadar pek çok ürünle beğeni kazanmaya devam ediyor. Trendyol hem farklı zevklere hem de bütçelere hitap eder. Kolay ve güvenli bir deneyim sunar. Üst ve alt giyim kategorilerinde sayısız model üretir ve sunar. Bu koleksiyonlar uygun fiyat avantajıyla sunulur. Her mevsime uygun ürün seçenekleri bulunur. Kışlık seçimlerde kazak, mont, hırka, ceket gibi ürünler baskınken yaz kombinlerinde renkli ve sade tişört modelleri sıklıkla kullanılır. İnce kumaştan üretilen jeanlar ve kapriler de yine yaz ayları için ideal bir seçimler olarak değerlendirilir. Yaz tatili için de bikini takımlarından satın alabilirsiniz. Geniş beden aralığı sayesinde istediğiniz ürünü tercih edebilirsiniz."

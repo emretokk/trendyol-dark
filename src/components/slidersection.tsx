@@ -42,13 +42,13 @@ export const SliderSection = () => {
         speed: 500,
         slidesToShow: 10,
         slidesToScroll: 9,
-        nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
+        // nextArrow: <NextArrow />,
+        // prevArrow: <PrevArrow />,
     };
     return (
         <div className="SliderSection w-full h-36 flex items-center">
             <div className="slider-wrapper w-901  mx-auto">
-                <Slider {...settings}>
+                <Slider {...settings} className="dark:text-primary">
                     <Item title="Sana Özel1" />
                     <Item title="2" />
                     <Item title="3" />
